@@ -1,0 +1,14 @@
+header {
+    background-color: #FF5500;
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        .company-name-header {
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+}

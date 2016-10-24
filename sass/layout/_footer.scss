@@ -1,0 +1,20 @@
+footer {
+    background-color: #d4d4d4;
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        .company-name-footer {
+            color: #595959;
+            font-weight: bold;
+            font-size: 24px;
+            display: inline-block;
+        }
+        .fa-facebook {
+            margin-left: auto;
+            margin-right: 0;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>My ToDO list</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <script src='https://use.fontawesome.com/399a66286d.js'></script>
+    <link rel='stylesheet' href='css/main.css'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <link rel='stylesheet' href='//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+    <link rel='stylesheet' href='/resources/demos/style.css'>
+    <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <script src='js/app.js'></script>
+</head>
+<body>
+    <header>
+        <div class='container'>
+            <div class='row'>
+                <div class='header-content col-10'>
+                    <img src='images/bulb.png' class='bulb-header-img' alt='bulb'>
+                    <p class='company-name-header'>useo<sup>&trade;</sup></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class='main-part'>
+        <div class='container'>
+            <div class='row'>
+                <h1 class='list-name col-10'>My ToDo List</h1>
+            </div>
+            <table class='my-notes'>
+                <thead>
+                    <tr class='table-row row'>
+                        <th class='table-heading col-1'>
+                            <i class='fa fa-trash-o fa-lg' aria-hidden='true'></i>
+                        </th>
+                        <th class='table-heading col-5'>content</th>
+                        <th class='table-heading col-2'>deadline</th>
+                        <th class='table-heading col-2'>actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class='table-row row'>
+                        <td class='table-cell col-1'>
+                            <form>
+                                <input type='checkbox' name='checkbox' value='checkbox'>
+                            </form>
+                        </td>
+                        <td class='table-cell col-5'>
+                            <form>
+                                <input type='text' class='add-text' placeholder='Add some text (required)'>
+                            </form>
+                        </td>
+                        <td class='table-cell col-2'>
+                            <form>
+                                <input type='text' class='datepicker' placeholder='Set deadline'>
+                            </form>
+                        </td>
+                        <td class='table-cell col-2'>
+                            <div class='button-add'>Add</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class='row'>
+            <div class='load-more-button'>
+                <i class='fa fa-paper-plane-o fa-lg' aria-hidden='true'></i> Load more
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='container'>
+            <div class='row '>
+                <div class='footer-content col-10'>
+                    <img src='images/bulb_footer.png' class='bulb-footer-img' alt='bulb'>
+                    <p class='company-name-footer'>useo<sup>&trade;</sup></p>
+                    <i class='fa fa-facebook fa-lg' aria-hidden='true'></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

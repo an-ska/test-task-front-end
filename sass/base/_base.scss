@@ -1,0 +1,10 @@
+$colCount: 10;
+@for $i from 1 through $colCount {
+    .col-#{$i} {
+    width: ($i / $colCount) * 100%;
+    }
+}
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+}
